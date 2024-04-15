@@ -1,0 +1,79 @@
+/* client/src/components/ChatInput.css
+.chat-input-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+
+
+   /* Chat.css */
+/* ChatInput.css */
+
+/* Input Container Styles */
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+  
+}
+
+/* Chat Input Styles */
+.chat-input {
+  width: calc(100% - 60px); /* Adjusted width to leave space for the emoji button */
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Rounded border radius */
+}
+
+/* Emoji Button Styles */
+.emoji-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%); /* Vertically center the button */
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Send Button Styles */
+.send-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  border-radius: 20px; /* Rounded border radius */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #0056b3; /* Darker shade of primary color */
+}

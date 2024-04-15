@@ -1,0 +1,26 @@
+/* client/src/components/ChatMessage.css
+.chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .like-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .like-button:hover {
+    background-color: #218838;
+  }
+   */
+   .users{
+    margin-left: '-8rem !important'
+   }

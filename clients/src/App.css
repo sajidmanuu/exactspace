@@ -1,0 +1,36 @@
+/* Add this to your existing CSS file or create a new one */
+
+.container-fluid {
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 100vh;
+}
+
+.conversion ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.conversion li {
+  margin-bottom: 10px;
+}
+
+.main-content {
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+}
