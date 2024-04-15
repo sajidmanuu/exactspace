@@ -19,7 +19,7 @@ const io = new Server(server, {
 app.use(cors());
 app.use(express.json()); // Add this line to parse JSON requests
 
-mongoose.connect('mongodb+srv://sajidkhanmanuu:sajid@cluster0.xyv60rw.mongodb.net/chatApp', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(mongodburl, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
   .catch((error) => console.error('MongoDB connection error:', error));
 
